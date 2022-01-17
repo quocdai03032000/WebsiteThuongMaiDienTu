@@ -1,0 +1,77 @@
+﻿@model ThuongMaiDienTu_v2.Models.Cart
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    var cart = Session["Cart"] as ThuongMaiDienTu_v2.Models.Cart;
+    @*@ViewBag.abc = cart.TotalCurrency;*@
+}
+
+<!-- ------------------------------------------------------------------------------------------------  -->
+<!-- ------------------------------------------------------------------------------------------------  -->
+<!-- ---------------------------------- EMPTY CART --------------------------------------------------  -->
+ @*<div class="wrap">
+    <div class="empty_cart">
+        <h1>Your cart</h1>
+        <h5>Your cart is currently empty.</h5>
+        <div class="empty_cart_back">
+            <a href="./AllProduct.html">CONTINUE SHOPPING <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
+</div>*@ 
+<!-- ---------------------------------- EMPTY CART --------------------------------------------------  -->
+<div class="wrap">
+    <div class="cart">
+        <div class="cart_left">
+            <div class="cart_left_list">
+                <!-- item open -->
+                @foreach (var item in Model.Items)
+                {
+                    <div class="cart_left_list_item">
+                        <div class="cart_left_list_item_img"><img src="@Url.Content(item.sp.Main_img)" alt="item"></div>
+                        <div class="cart_left_list_item_detail">
+                            <h3><a href="#">@Html.Label(item.sp.SanPham_Name)</a></h3>
+                            <div class="item_desc">
+                                <br>
+                                <span>Size @Html.Label(item.Size) | 100% cotton</span>
+                            </div>
+                            <div class="item_action">
+                                <a href="@Url.Action("DelCart","User", new { id = item.sp.SanPham_Id, size = item.Size})" class="item_action_remove">XOÁ</a>
+                            </div>
+                        </div>
+                        <div class="cart_left_list_item_price"><span>@item.sp.StringPrice</span><del>800.000đ</del></div>
+                        <div class="cart_left_list_item_action">
+                            <div class="cart_left_list_item_action_wrap">
+                                <a href="">-</a>
+                                <span>@Html.Label(item.SoLuong.ToString())</span>
+                                <a href="">+</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <!-- item close -->
+                
+            </div>
+        </div>
+        <div class="cart_right">
+            <div class="cart_right_bill">
+                <h1 class="cart_right_bill_title">Thông tin đơn hàng</h1>
+                <div class="cart_right_bill_infor">
+                    <h4>Tạm tính (<span>@Html.Label(cart.SumProduct.ToString())</span> sản phẩm)</h4>
+                    <h4>@ViewBag.Currency đ</h4>
+                </div>
+                <div class="cart_right_bill_desc">
+                    <p>Phí vận chuyển sẽ được tính ở trang thanh toán. Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</p>
+                </div>
+                <div class="cart_right_bill_total">
+                    <h4>Tổng cộng</h4>                    
+                    <h4 class="bill_price">@ViewBag.Currency đ</h4>                    
+                </div>
+                <!-- <button class="cart_right_bill_btn_checkout">Đặt hàng</button> -->
+                <a href="@Url.Action("Checkout","User")" class="cart_right_bill_link_checkout">Đặt hàng</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

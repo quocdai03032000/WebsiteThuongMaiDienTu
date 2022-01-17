@@ -1,0 +1,87 @@
+﻿@*@model IEnumerable<ThuongMaiDienTu_v2.Models.SanPham>*@
+@using ThuongMaiDienTu_v2.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SanPham>
+
+@{
+    ViewBag.Title = "AllProduct";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="AllProduct_imgTitle">
+    <img src="~/Resources/img/13.jpg" alt="" class="AllProduct_imgTitle_img">
+    <div class="AllProduct_imgTitle_title">Tất cả sản phẩm</div>
+</div>
+
+<!-- Fillter -->
+<section class="body_AllProduct">
+    <div class="wrap">
+        <div class="filter">
+            <ul class="filter_list">
+                <li class="filter_item">
+                    <select name="Price" id="">
+                        <option value="under_100">dưới 100.000đ</option>
+                        <option value="under_100">100.000đ - 200.000đ</option>
+                        <option value="under_100">200.000đ - 300.000đ</option>
+                        <option value="under_100">300.000đ - 400.000đ</option>
+                        <option value="under_100" selected>Lọc giá</option>
+                    </select>
+                </li>
+                <li class="filter_item">
+                    <select name="Price" id="">
+                        <option value="under_100" selected>Loại</option>
+                        <option value="under_100">Tee | Áo Thun</option>
+                        <option value="under_100">Pant | Quần</option>
+                        <option value="under_100">Jacket | Áo khoác</option>
+                        <option value="under_100"> Accessories | Phụ Kiện</option>
+                    </select>
+                </li>
+                <li class="filter_item">
+                    <select name="Price" id="">
+                        <option value="under_100" selected>Size</option>
+                        <option value="under_100">S</option>
+                        <option value="under_100">M</option>
+                        <option value="under_100">L</option>
+                        <option value="under_100">XL</option>
+                        <option value="under_100">XXL</option>
+                    </select>
+                </li>
+            </ul>
+            <ul class="filter_sort">
+                <li class="filter_sort_item">
+                    <span>Sắp xếp theo :</span>
+                    <select name="Price" id="">
+                        <option value="under_100" selected>Mới nhất</option>
+                        <option value="under_100">Giá : Tăng dần</option>
+                        <option value="under_100">Giá : Giảm dần</option>
+                        <option value="under_100">Tên : A - Z</option>
+                        <option value="under_100">Tên : Z - A</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- ------ -->
+
+<div class="wrap">
+    <div class="row">
+        @foreach(var pro in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 new_item">
+                <a class="new_item-item_link" href="@Url.Action("ProductDetail","User", new { id =pro.SanPham_Id})">
+                    <img src="@Url.Content(pro.Main_img)" alt="" class="new_item-item_img">
+                    <h3 class="new_item-item_name">@pro.SanPham_Name</h3>
+                    <h3 class="new_item-item_price">
+                        @pro.StringPrice
+                        <!--<del>200.000đ</del>-->
+                    </h3>
+                </a>
+            </div>
+        }        
+    </div>
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    <div class="MenuPage">
+        @Html.PagedListPager(Model, page => Url.Action("AllProduct", new { page = page}))
+    </div>
+</div>

@@ -1,0 +1,89 @@
+﻿@model ThuongMaiDienTu_v2.Areas.Admin.Models.Bill
+@{
+    ViewBag.Title = "OderDetail";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1>Đơn hàng chi tiết</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content mt-3">
+    <div class="animated fadeIn">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <strong class="card-title">Danh sách đơn hàng</strong>
+                        @if (Model.DonHang.TinhTrangThanhToan == "Chưa thanh toán")
+                        {
+                            <strong class="Payment-unSusscess">@Html.Label(Model.DonHang.TinhTrangThanhToan)</strong>
+                        }
+                        else
+                        {
+                            <strong class="Payment-Susscess ">Đã thanh toán</strong>
+                        }
+
+
+                    </div>
+                    <div class="card-body">
+                        <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Tên sản phẩm</th>
+                                    <th>Size</th>
+                                    <th>Số lượng</th>
+                                    <th>Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.listSp)
+                                {
+                                    <tr>
+                                        <td>@item.SanPham.SanPham_Name</td>
+                                        <td>@item.Size</td>
+                                        <td>@item.SoLuong</td>
+                                        <td>@item.StringPrice</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="3" class="total-order">Tổng cộng :</td>
+                                    <td class="total-order-number">@Model.Total</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-body order_infor">
+                        <div class="order_infor_item">Họ và tên : <span>@Model.DonHang.DonHangInfor.HoTen</span></div>
+                        <div class="order_infor_item">Email : <span>@Model.DonHang.DonHangInfor.Email</span></div>
+                        <div class="order_infor_item">Số điện thoại : <span>@Model.DonHang.DonHangInfor.Sdt</span></div>
+                        <div class="order_infor_item">Địa chỉ : <span>@Model.DonHang.DonHangInfor.DiaChi</span></div>
+                    </div>
+                    <div class="card-body order_btn">
+                        @if (Model.DonHang.TinhTrangDonHang_id == 1)
+                        {
+                            <a href="@Url.Action("ConfirmBill","Admin",new { id = Model.DonHang.DonHang_id})" class="order_suss">Xác nhận đơn hàng</a>
+                        }
+                        @if (Model.DonHang.TinhTrangDonHang_id == 2)
+                        {
+                            <a href="@Url.Action("GoShip","Admin",new { id = Model.DonHang.DonHang_id})" class="order_suss">Giao vận chuyển</a>
+                        }
+                        @if (Model.DonHang.TinhTrangDonHang_id == 3)
+                        {
+                            <a href="@Url.Action("ShipSuss","Admin",new { id = Model.DonHang.DonHang_id})" class="order_suss">Giao hàng thành công</a>
+                        }
+                        <a href="#" class="order_print">In đơn hàng</a>
+                        <a href="#" class="order_del">Xoá đơn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

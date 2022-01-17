@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<!-- ------------------------------------------------------------------------------------------------  -->
+<!-- ------------------------------------------------------------------------------------------------  -->
+<!-- ---------------------------------- EMPTY CART --------------------------------------------------  -->
+ <div class="wrap">
+    <div class="empty_cart">
+        <h1>Your cart</h1>
+        <h5>Your cart is currently empty.</h5>
+        <div class="empty_cart_back">
+            <a href="@Url.Action("Index","User")">CONTINUE SHOPPING <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
+</div> 

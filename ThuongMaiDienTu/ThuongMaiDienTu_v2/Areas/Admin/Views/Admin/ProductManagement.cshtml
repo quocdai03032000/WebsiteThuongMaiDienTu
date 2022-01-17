@@ -1,0 +1,186 @@
+﻿@model IEnumerable<ThuongMaiDienTu_v2.Models.SanPham>
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    
+}
+
+
+
+@if (TempData["ConfirmBill"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert  alert-success alert-dismissible fade show" role="alert">
+            <span class="badge badge-pill badge-success">Success</span> Thêm sản phẩm thành công
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+}
+@if (TempData["GoShip"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert  alert-success alert-dismissible fade show" role="alert">
+            <span class="badge badge-pill badge-success">Success</span> Bát đầu vận chuyển hàng
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+}
+@if (TempData["ShipSuss"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert  alert-success alert-dismissible fade show" role="alert">
+            <span class="badge badge-pill badge-success">Success</span> Giao hàng thành công
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+}
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1>Quản lý sản phẩm</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content mt-3">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <strong class="card-title ">Danh sách sản phẩm</strong>
+                        <a href="#" class="addItem"> <i class="fas fa-plus"></i> Thêm sản phẩm</a>
+                    </div>
+                    <div class="card-body">
+                        <table id="bootstrap-data-table-export" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Tên sản phẩm</th>
+                                    <th>Loại sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá</th>
+                                    <th>Giá sale</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><a href="@Url.Action("ProductDetail","Admin",new {id=item.SanPham_Id })">@Html.Label(item.SanPham_Name)</a></td>
+                                        <td>@Html.Label(item.Type_SanPham.Type_name)</td>
+                                        <td>@Html.Label(item.SoLuong.ToString())</td>
+                                        <td>@item.StringPrice</td>
+                                        <td>@Html.Label(item.SanPham_priceSale.ToString())</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .animated -->
+    <!-- modal add addItem -->
+    <!-- modal add addItem -->
+    <!-- modal add addItem -->
+
+
+
+</div>
+
+<!-- MODAL -->
+<!-- MODAL -->
+<div class="addItemModal hide">
+    <div class="col-lg-6 card addItemModal_inner">
+        <div class="card-header">
+            <strong>Thêm sản phẩm</strong>
+            <a href="#" class="close_modal"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="card-body card-block">
+            @using (Html.BeginForm("ThemSanPham", "Admin", FormMethod.Post, new { @class = "form-horizontal", @enctype = "multipart/form-data" }))
+            {
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Tên sản phẩm</label></div>
+                    <div class="col-12 col-md-9"><input required type="text" id="text-input" name="name" placeholder="Text" class="form-control"></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Mô tả</label></div>
+                    <div class="col-12 col-md-9"><textarea required name="desc" id="textarea-input" rows="9" placeholder="Content..." class="form-control"></textarea></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="select" class=" form-control-label">Loại sản phẩm</label></div>
+                    <div class="col-12 col-md-9">
+                        <select name="tyleID" id="select" class="form-control">
+                            <option value="0">Chọn loại sản phẩm</option>
+                            <option value="1">Tee</option>
+                            <option value="2">Pant</option>
+                            <option value="3">Jackket</option>
+                            <option value="3">Accessories</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Giá sản phẩm</label></div>
+                    <div class="col-12 col-md-9"><input required type="number" id="text-input" name="price" placeholder="VND" class="form-control"></div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Ảnh chính</label></div>
+                    @*<div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>*@
+                    <div class="col-12 col-md-9">
+                        <input type="file" value="img" required name="imageUploader" onchange="ShowImg(this, document.getElementById('previewImg'))" />
+                        <img src="" id="previewImg" alt="Hinh anh sản phảm">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Ảnh 1</label></div>
+                    @*<div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>*@
+                    <div class="col-12 col-md-9">
+                        <input required type="file" value="img" name="imageUploader2" onchange="ShowImg2(this, document.getElementById('previewImg2'))" />
+                        <img src="" id="previewImg2" alt="Hinh anh sản phảm">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Ảnh 2</label></div>
+                    @*<div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>*@
+                    <div class="col-12 col-md-9">
+                        <input type="file" value="img" required name="imageUploader3" onchange="ShowImg3(this, document.getElementById('previewImg3'))" />
+                        <img src="" id="previewImg3" alt="Hinh anh sản phảm">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Ảnh 3</label></div>
+                    @*<div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>*@
+                    <div class="col-12 col-md-9">
+                        <input type="file" value="img" required name="imageUploader4" onchange="ShowImg4(this, document.getElementById('previewImg4'))" />
+                        <img src="" id="previewImg4" alt="Hinh anh sản phảm">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-md-3"><label for="file-input" class=" form-control-label">Ảnh 3</label></div>
+                    @*<div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>*@
+                    <div class="col-12 col-md-9">
+                        <input type="file" value="img" required name="imageUploader5" onchange="ShowImg5(this, document.getElementById('previewImg5'))" />
+                        <img src="" id="previewImg5" alt="Hinh anh sản phảm">
+                    </div>
+                </div>
+                <br>
+                <button class="btnAddItem">THÊM SẢN PHẨM</button>
+            }
+            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal"></form>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+
+
+<div class="wrap">
+    <div class="main__form">
+        @using (Html.BeginForm("Login", "User", FormMethod.Post, new { @class = "form", @id = "form" }))
+        {
+            <h3 class="form_title">Đăng nhập</h3>
+            <div class="form_spacer"></div>
+            <div class="form_group">
+                <label for="email" class="form_label">Email *</label>
+                <input type="text" id="email" name="email" placeholder="example@domain.com" class="form_control">
+                <span class="form_message"></span>
+            </div>
+            <div class="form_group">
+                <label for="password" class="form_label">Password *</label>
+                <input type="password" id="password" name="password" placeholder="Password" class="form_control">
+                <span class="form_message"></span>
+            </div>
+            <div class="form_link">
+                <a href="" class="form_link_fogotPass">Quên mật khẩu ?</a>
+                <a href="@Url.Action("Register", "User")" class="form_link_register">Đăng ký</a>
+            </div>
+            <br>
+            <button class="form_submit">Đăng nhập</button>
+            <span class="ErrorRegister">@TempData["ErrorLogin"]</span>
+        }
+        @*<form asp-action="Login" class="form" id="form">
+            <h3 class="form_title">Đăng nhập</h3>
+            <div class="form_spacer"></div>
+            <div class="form_group">
+                <label for="email" class="form_label">Email *</label>
+                <input type="text" id="email" name="email" placeholder="example@domain.com" class="form_control">
+                <span class="form_message"></span>
+            </div>
+            <div class="form_group">
+                <label for="password" class="form_label">Password *</label>
+                <input type="password" id="password" name="password" placeholder="Password" class="form_control">
+                <span class="form_message"></span>
+            </div>
+            <div class="form_link">
+                <a href="#" class="form_link_fogotPass">Quên mật khẩu ?</a>
+                <a href="@Url.Action("Register", "User")" class="form_link_register">Đăng ký</i></a>
+            </div>
+            <br>
+            <button class="form_submit">Đăng nhập</button>
+        </form>*@
+    </div>
+</div>
+
+<!-- Script validate form -->
+@Scripts.Render("~/bundles/script");
+<script>
+    Validator({
+        form: '#form',
+        errorSelector: '.form_message',
+        rule: [
+            Validator.isRequired('#email', 'email'),
+            Validator.isEmail('#email'),
+            Validator.isRequired('#password', 'mật khẩu')
+        ],
+        onSubmit: function (data) {
+            console.log(data);
+        }
+    });
+</script>

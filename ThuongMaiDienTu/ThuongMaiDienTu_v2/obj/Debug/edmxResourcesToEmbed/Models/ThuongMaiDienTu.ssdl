@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThuongMaiDienTuModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Account_user" Type="nchar" MaxLength="30" />
+    <Property Name="Account_password" Type="nchar" MaxLength="30" />
+    <Property Name="Account_role_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Account_role">
+    <Key>
+      <PropertyRef Name="Account_role_id" />
+    </Key>
+    <Property Name="Account_role_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Account_role_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DonHang">
+    <Key>
+      <PropertyRef Name="DonHang_id" />
+    </Key>
+    <Property Name="DonHang_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Account_ID" Type="int" />
+    <Property Name="NgayGio" Type="datetime" />
+    <Property Name="TinhTrangDonHang_id" Type="int" />
+    <Property Name="PhuongThucThanhToan" Type="nvarchar" MaxLength="50" />
+    <Property Name="TinhTrangThanhToan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Total" Type="int" />
+    <Property Name="DonHangInfor_id" Type="int" />
+  </EntityType>
+  <EntityType Name="DonHangInfor">
+    <Key>
+      <PropertyRef Name="DonHangInfor_id" />
+    </Key>
+    <Property Name="DonHangInfor_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sdt" Type="nvarchar" MaxLength="50" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="TinhThanh" Type="nvarchar" MaxLength="50" />
+    <Property Name="QuanHuyen" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhuongXa" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Feedback">
+    <Key>
+      <PropertyRef Name="Feedback_id" />
+    </Key>
+    <Property Name="Feedback_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Infor">
+    <Key>
+      <PropertyRef Name="Infor_id" />
+    </Key>
+    <Property Name="Infor_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Account_id" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="TinhThanh" Type="nvarchar" MaxLength="50" />
+    <Property Name="QuanHuyen" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhuongXa" Type="nvarchar" MaxLength="50" />
+    <Property Name="BuyHistory" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProductListCheckout">
+    <Key>
+      <PropertyRef Name="ProductListCheckout_id" />
+    </Key>
+    <Property Name="ProductListCheckout_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DonHang_id" Type="int" />
+    <Property Name="SanPham_id" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="Size" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="int" />
+    <Property Name="StringPrice" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="SanPham_Id" />
+    </Key>
+    <Property Name="SanPham_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SanPham_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="SanPham_description" Type="nvarchar(max)" />
+    <Property Name="SanPham_Price" Type="int" />
+    <Property Name="SanPham_priceSale" Type="int" />
+    <Property Name="Sale_key" Type="bit" />
+    <Property Name="Main_img" Type="nvarchar(max)" />
+    <Property Name="Img1" Type="nvarchar(max)" />
+    <Property Name="Img2" Type="nvarchar(max)" />
+    <Property Name="Img3" Type="nvarchar(max)" />
+    <Property Name="Img4" Type="nvarchar(max)" />
+    <Property Name="Type_SanPham_id" Type="int" />
+    <Property Name="SanPhamDetail_id" Type="int" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="StringPrice" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SanPhamDetail">
+    <Key>
+      <PropertyRef Name="SanPhamDetail_id" />
+    </Key>
+    <Property Name="SanPhamDetail_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="S" Type="int" />
+    <Property Name="M" Type="int" />
+    <Property Name="L" Type="int" />
+    <Property Name="XL" Type="int" />
+    <Property Name="XXL" Type="int" />
+  </EntityType>
+  <EntityType Name="Size">
+    <Key>
+      <PropertyRef Name="Size_id" />
+    </Key>
+    <Property Name="Size_id" Type="int" Nullable="false" />
+    <Property Name="Size_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ThanhToan">
+    <Key>
+      <PropertyRef Name="ThanhToan_id" />
+    </Key>
+    <Property Name="ThanhToan_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TinhTrangDonHang">
+    <Key>
+      <PropertyRef Name="TinhTrangDonHang_id" />
+    </Key>
+    <Property Name="TinhTrangDonHang_id" Type="int" Nullable="false" />
+    <Property Name="TinhTrangDonHang_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Type_SanPham">
+    <Key>
+      <PropertyRef Name="Type_SanPham_id" />
+    </Key>
+    <Property Name="Type_SanPham_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Account_Account_role">
+    <End Role="Account_role" Type="Self.Account_role" Multiplicity="0..1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account_role">
+        <PropertyRef Name="Account_role_id" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="Account_role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonHang_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DonHang">
+        <PropertyRef Name="Account_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonHang_DonHangInfor1">
+    <End Role="DonHangInfor" Type="Self.DonHangInfor" Multiplicity="0..1" />
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DonHangInfor">
+        <PropertyRef Name="DonHangInfor_id" />
+      </Principal>
+      <Dependent Role="DonHang">
+        <PropertyRef Name="DonHangInfor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonHang_TinhTrangDonHang">
+    <End Role="TinhTrangDonHang" Type="Self.TinhTrangDonHang" Multiplicity="0..1" />
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TinhTrangDonHang">
+        <PropertyRef Name="TinhTrangDonHang_id" />
+      </Principal>
+      <Dependent Role="DonHang">
+        <PropertyRef Name="TinhTrangDonHang_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Infor_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="Infor" Type="Self.Infor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Infor">
+        <PropertyRef Name="Account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductListCheckout_DonHang">
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="0..1" />
+    <End Role="ProductListCheckout" Type="Self.ProductListCheckout" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DonHang">
+        <PropertyRef Name="DonHang_id" />
+      </Principal>
+      <Dependent Role="ProductListCheckout">
+        <PropertyRef Name="DonHang_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductListCheckout_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="0..1" />
+    <End Role="ProductListCheckout" Type="Self.ProductListCheckout" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="SanPham_Id" />
+      </Principal>
+      <Dependent Role="ProductListCheckout">
+        <PropertyRef Name="SanPham_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_SanPhamDetail">
+    <End Role="SanPhamDetail" Type="Self.SanPhamDetail" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPhamDetail">
+        <PropertyRef Name="SanPhamDetail_id" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="SanPhamDetail_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_Type_SanPham">
+    <End Role="Type_SanPham" Type="Self.Type_SanPham" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type_SanPham">
+        <PropertyRef Name="Type_SanPham_id" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="Type_SanPham_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ThuongMaiDienTuModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Account_role" EntityType="Self.Account_role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonHang" EntityType="Self.DonHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonHangInfor" EntityType="Self.DonHangInfor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Feedback" EntityType="Self.Feedback" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Infor" EntityType="Self.Infor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductListCheckout" EntityType="Self.ProductListCheckout" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPhamDetail" EntityType="Self.SanPhamDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Size" EntityType="Self.Size" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ThanhToan" EntityType="Self.ThanhToan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TinhTrangDonHang" EntityType="Self.TinhTrangDonHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Type_SanPham" EntityType="Self.Type_SanPham" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Account_Account_role" Association="Self.FK_Account_Account_role">
+      <End Role="Account_role" EntitySet="Account_role" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonHang_Account" Association="Self.FK_DonHang_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="DonHang" EntitySet="DonHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonHang_DonHangInfor1" Association="Self.FK_DonHang_DonHangInfor1">
+      <End Role="DonHangInfor" EntitySet="DonHangInfor" />
+      <End Role="DonHang" EntitySet="DonHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonHang_TinhTrangDonHang" Association="Self.FK_DonHang_TinhTrangDonHang">
+      <End Role="TinhTrangDonHang" EntitySet="TinhTrangDonHang" />
+      <End Role="DonHang" EntitySet="DonHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Infor_Account" Association="Self.FK_Infor_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="Infor" EntitySet="Infor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductListCheckout_DonHang" Association="Self.FK_ProductListCheckout_DonHang">
+      <End Role="DonHang" EntitySet="DonHang" />
+      <End Role="ProductListCheckout" EntitySet="ProductListCheckout" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductListCheckout_SanPham" Association="Self.FK_ProductListCheckout_SanPham">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="ProductListCheckout" EntitySet="ProductListCheckout" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_SanPhamDetail" Association="Self.FK_SanPham_SanPhamDetail">
+      <End Role="SanPhamDetail" EntitySet="SanPhamDetail" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_Type_SanPham" Association="Self.FK_SanPham_Type_SanPham">
+      <End Role="Type_SanPham" EntitySet="Type_SanPham" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

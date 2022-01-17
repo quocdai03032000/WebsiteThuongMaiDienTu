@@ -1,0 +1,180 @@
+﻿@model IEnumerable<ThuongMaiDienTu_v2.Models.SanPham>
+@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    var ProductDetai = ViewBag.ProductDetail as ThuongMaiDienTu_v2.Models.SanPham;
+}
+
+
+<div class="ProductDetail" >
+        <div class="wrap">
+            <div class="row">
+                <!-- Hình ảnh -->
+                <div class="col-lg-6 ProductDetail_img">
+                    <div class="img_main">
+                        <img src="@Url.Content(ProductDetai.Main_img)" alt="Hình ảnh">
+                        <span class="control prev">
+                            <i class="bx bx-chevron-left"></i>
+                        </span>
+                        <span class="control next">
+                            <i class="bx bx-chevron-right"></i>
+                        </span>
+                    </div>
+                    <div class="list_img">
+                        <div><img src="@Url.Content(ProductDetai.Main_img)" alt=""></div>
+                        <div><img src="@Url.Content(ProductDetai.Img1)" alt=""></div>
+                        <div><img src="@Url.Content(ProductDetai.Img2)" alt=""></div>
+                        <div><img src="@Url.Content(ProductDetai.Img3)" alt=""></div>
+                    </div>
+                </div>
+                <!-- Info -->
+
+                <div class="col-lg-6 ProductDetail_info">
+                    <div class="ProductDetail_info_wrap">
+                        <div class="ProductDetail_info_name">@Url.Content(ProductDetai.SanPham_Name)</div>
+                        <div class="ProductDetail_info_price">
+                            <span>@ProductDetai.StringPrice</span>
+                            @{
+                                if (ProductDetai.SanPham_priceSale != 0)
+                                {
+                                    string priceSale = ProductDetai.SanPham_priceSale.ToString();
+                                    <del>@priceSale</del>
+                                }
+                            }
+                        </div>
+                        @using (Html.BeginForm("AddToCart", "User", FormMethod.Get))
+                        {
+                            <div class="ProductDetail_info_control">
+                                <div class="ProductDetail_info_size"><span>Kích thước:</span></div>
+                                <div class="ProductDetail_info_size_list">
+                                    <select name="size" id="">
+                                        @if (ProductDetai.SanPhamDetail.S > 0)
+                                        {
+                                            <option value="S">S</option>
+                                        }
+                                        @if (ProductDetai.SanPhamDetail.M > 0)
+                                        {
+                                            <option value="M" selected>M</option>
+                                        }
+                                        @if (ProductDetai.SanPhamDetail.L > 0)
+                                        {
+                                            <option value="L">L</option>
+                                        }
+                                        @if (ProductDetai.SanPhamDetail.XL > 0)
+                                        {
+                                            <option value="XL">XL</option>
+                                        }
+                                        @if (ProductDetai.SanPhamDetail.XXL > 0)
+                                        {
+                                            <option value="XXL">XXL</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="ProductDetail_info_control">
+                                <div class="ProductDetail_info_size"><span>Số lượng:</span></div>
+                                <div class="ProductDetail_info_size_num">
+                                    <button type="button" class="btn-minus"><i class="fa fa-minus"></i></button>
+                                    <input name="soLuong" type="number" value="1">
+                                    <button type="button" class="btn-plus"><i class="fa fa-plus"></i></button>
+                                </div>
+                            </div>
+                            <input name="id" class="hide" value="@ProductDetai.SanPham_Id" />
+                            if (ProductDetai.SoLuong != 0)
+                            {
+                                <button class="btnAddToCart">THÊM VÀO GIỎ</button>
+                                <button class="btnBuyNow">MUA NGAY</button>
+                            }
+                            else
+                            {
+                                <a href="#" class="btnHetHang">HẾT HÀNG</a>
+                            }
+
+                        }
+                        @if (TempData["AddCartSuss"] != null)
+                        {
+                            <div id="toast">
+
+
+                            </div>
+                        }
+                        <div class="ProductDetail_desc">
+                            <span>Chi tiết sản phẩm:</span>
+                            <P>
+                                @Url.Content(ProductDetai.SanPham_description)
+                                @*Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, mollitia dolor facere ex qui doloribus saepe iste tempora dolore vitae modi sequi officiis odio sapiente illum praesentium dignissimos ratione! Illo!*@
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>s
+<script>
+
+    //Chuyển hình
+    let listDivImg = document.querySelectorAll('.list_img div')
+    let next = document.querySelector('.next')
+    let prev = document.querySelector('.prev')
+    let imgWrap = document.querySelector('.img_main img')
+
+    let currentIndex = 0
+
+    setCurrent(currentIndex)
+
+    function setCurrent(index) {
+        currentIndex = index
+        imgWrap.src = listDivImg[currentIndex].querySelector('img').src
+
+        // remove all active img
+        listDivImg.forEach((item) => {
+            item.classList.remove('active')
+        })
+
+        // set active
+        listDivImg[currentIndex].classList.add('active')
+    }
+
+    listDivImg.forEach((img, index) => {
+        img.addEventListener('click', (e) => {
+            setCurrent(index)
+        })
+    })
+
+    next.addEventListener('click', () => {
+        if (currentIndex == listDivImg.length - 1) {
+            currentIndex = 0
+        } else currentIndex++
+
+        setCurrent(currentIndex)
+    })
+
+    prev.addEventListener('click', () => {
+        if (currentIndex == 0) currentIndex = listDivImg.length - 1
+        else currentIndex--
+
+        setCurrent(currentIndex)
+    })
+
+    //tăng giảm số lượng
+    $('.ProductDetail_info_size_num  button').on('click', function () {
+        var $button = $(this);
+        var oldValue = $button.parent().find('input').val();
+        if ($button.hasClass('btn-plus')) {
+            var newVal = parseFloat(oldValue) + 1;
+        } else {
+            if (oldValue > 0) {
+                var newVal = parseFloat(oldValue) - 1;
+            } else {
+                newVal = 0;
+            }
+        }
+        $button.parent().find('input').val(newVal);
+    });
+</script>
+
+
+

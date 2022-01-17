@@ -1,0 +1,274 @@
+﻿
+@{
+    var user = Session["User"] as ThuongMaiDienTu_v2.Models.Account;
+    var userInfor = Session["UserInfor"] as ThuongMaiDienTu_v2.Models.Infor;
+    var cart = Session["Cart"] as ThuongMaiDienTu_v2.Models.Cart;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    @*<link rel="stylesheet" href="./resources/css/reset.css">
+        <link rel="stylesheet" href="./style.css">*@
+    @Styles.Render("~/bundles/css")
+    <title>@ViewBag.Title</title>
+
+</head>
+
+<body onload="showSuccessToast();">
+    <!-- header -->
+    <div class="header shadow">
+        <nav class="header_title">
+            <div class="header_logo">
+                <a href="@Url.Action("Index","User")"><img src="~/Resources/img/logo.png" alt="" class="header_logo_img"></a>
+            </div>
+            <ul class="header_menu">
+                <li class="header_menu_item"><a href="@Url.Action("Index","User")">Home</a></li>
+                <li class="header_menu_item">
+                    <a href="@Url.Action("AllProduct","User")">Shop <i class="fas fa-chevron-down icon_dropdown"></i></a>
+                    <ul class="submenu">
+                        <li class="submenu_item"><a href="@Url.Action("TeeProduct","User")">Tee | Áo thun</a></li>
+                        <li class="submenu_item"><a href="@Url.Action("PantProduct","User")">Pant | Quần</a></li>
+                        <li class="submenu_item"><a href="@Url.Action("JacketProduct","User")">Jacket | Áo khoác</a></li>
+                        <li class="submenu_item"><a href="@Url.Action("AccessoryProduct","User")">Accessories | Phụ kiện</a></li>
+                    </ul>
+                </li>
+                <li class="header_menu_item"><a href="">News</a></li>
+                <li class="header_menu_item"><a href="@Url.Action("Contact","User")">Contact</a></li>
+            </ul>
+            <ul class="header_icon">
+                <li class="header_icon_item"><a href=""><i class="fas fa-search"></i></a></li>
+                <li class="header_icon_item">
+                    <a href="@Url.Action("Cart","User")">
+                        <i class="fas fa-shopping-cart"></i>
+                        @if (cart == null)
+                        {
+                            <span class="numOfCart">0</span>
+                        }
+                        else
+                        {
+                            <span class="numOfCart">@Html.Label(cart.SumProduct.ToString())</span>
+                        }
+
+                    </a>
+                </li>
+                <!--Login-->
+                @{
+                    if (Session["User"] == null)
+                    {
+                        <li class="header_icon_item ">
+                            <a href="@Url.Action("Login","User")"><i class="fas fa-user"></i></a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="header_icon_item header_icon_item_img js_open_modal">
+                            <img src="~/Resources/img/user-removebg-preview.png" alt="">
+                        </li>
+                    }
+                }
+
+
+            </ul>
+        </nav>
+    </div>
+    @{
+        if (Session["User"] != null)
+        {
+            <!-- modal user -->
+            <div class="modal_user shadow js_modal_user hide">
+                <div class="modal_user_wrap">
+                    <div class="modal_user_header">
+                        <h3>Account</h3>
+                        <i class="fas fa-times js_modal_close"></i>
+                    </div>
+                    <div class="modal_user_info">
+                        <img src="~/Resources/img/user-removebg-preview.png" alt="">
+                        <div class="modal_user_info_name">
+                            <span>@userInfor.Name</span>
+                            <span>@user.Account_user</span>
+                        </div>
+                    </div>
+                    <div class="modal_user_setting">
+                        <a href="">Đổi mật khẩu</a>
+                        <a href="">Setting</a>
+                        <a href="">Help</a>
+                    </div>
+                    <div class="modal_user_logout">
+                        <a href="@Url.Action("Logout","User")">Logout</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+    <!------------------------------------>
+
+    @RenderBody()
+
+    <!------------------------------------>
+    <!-- footer -->
+    <div class="img_list_footer">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-1.jpg.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-2.jpg.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-3.jpg.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-4.jpg.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-5.jpg.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-4 p-0">
+                <img src="~/Resources/img/ins/insta-6.jpg.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <footer class="footer">
+            <div class="footer_end">
+                <div class="footer_end_item">
+                    <img src="~/Resources/img/logo.png" alt="">
+                </div>
+                <div class="footer_end_item">
+                    <h4 class="footer_end_item_title">QUICK LINKS</h4>
+                    <p class="footer_end_item_sub">About</p>
+                    <p class="footer_end_item_sub">Blogs</p>
+                    <p class="footer_end_item_sub">Contact</p>
+                    <p class="footer_end_item_sub">FAQ</p>
+                </div>
+                <div class="footer_end_item">
+                    <h4 class="footer_end_item_title">ACCOUNT</h4>
+                    <p class="footer_end_item_sub">My Account</p>
+                    <p class="footer_end_item_sub">Orders Tracking</p>
+                    <p class="footer_end_item_sub">Checkout</p>
+                    <p class="footer_end_item_sub">Wishlist</p>
+                </div>
+                <div class="footer_end_item">
+                    <h4 class="footer_end_item_title">
+                        Social network
+                    </h4>
+                    <a href="" class="footer_end_item_social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="footer_end_item_social"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="footer_end_item_social"><i class="fab fa-pinterest"></i></a>
+                    <a href="" class="footer_end_item_social"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="footer_end_item_social"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footerChild">
+                <div class="container footerChild__container">
+                    <div class="footerChild__item">
+                        <a href="#" class="footerChild__link">Privacy policy</a>
+                        <a href="#" class="footerChild__link">Terms of Service</a>
+                    </div>
+                    <div class="footerChild__item">
+                        <i class="far fa-copyright"></i>2021 INTELLECTUAL. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- --------- -->
+
+    @Scripts.Render("~/bundles/script");
+    @*<script src="./resources/js/script.js"></script>
+        <script src="./resources/js/countdown.js"></script>
+        <script src="./resources/js/changeSlideImg.js">
+        </script>*@
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="~/Resources/js/jquery.waypoints.min.js"></script>
+    <script>
+        function showSuccessToast() {
+            toast({
+                title: "Thêm vào giỏ hàng thành công",
+                // message: "Thêm sản phẩm vào giỏ hàng thành công.",
+                type: "success",
+                duration: 2500
+            });
+        }
+
+        function showErrorToast() {
+            toast({
+                title: "Thất bại!",
+                message: "Có lỗi xảy ra, vui lòng liên hệ quản trị viên.",
+                type: "error",
+                duration: 5000
+            });
+        }
+
+        function toast({
+            title = "",
+            message = "",
+            type = "info",
+            duration = 3000
+        }) {
+            const main = document.getElementById("toast");
+            if (main) {
+                const toast = document.createElement("div");
+
+                // Auto remove toast
+                const autoRemoveId = setTimeout(function () {
+                    main.removeChild(toast);
+                }, duration + 1000);
+
+                // Remove toast when clicked
+                toast.onclick = function (e) {
+                    if (e.target.closest(".toast__close")) {
+                        main.removeChild(toast);
+                        clearTimeout(autoRemoveId);
+                    }
+                };
+
+                const icons = {
+                    success: "fas fa-check-circle",
+                    info: "fas fa-info-circle",
+                    warning: "fas fa-exclamation-circle",
+                    error: "fas fa-exclamation-circle"
+                };
+                const icon = icons[type];
+                const delay = (duration / 1000).toFixed(2);
+
+                toast.classList.add("toast", `toast--${type}`);
+                toast.style.animation = `slideInLeft ease .3s, fadeOut linear 1s ${delay}s forwards`;
+
+                toast.innerHTML = `
+                                <div class="toast__icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="toast__body">
+                                    <h3 class="toast__title">Thêm vào giỏ hàng thành công</h3>
+                                </div>
+                                <div class="toast__close">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                          `;
+                main.appendChild(toast);
+            }
+        }
+    </script>
+    @*<script src="../../vendors/js/script.js"></script>*@
+    @*<script src="../../vendors/js/jquery.waypoints.min.js"></script>*@
+</body>
+
+</html>

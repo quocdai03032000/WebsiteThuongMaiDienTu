@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ThuongMaiDienTuModelStoreContainer" CdmEntityContainer="ThuongMaiDienTuEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Account_user" ColumnName="Account_user" />
+          <ScalarProperty Name="Account_password" ColumnName="Account_password" />
+          <ScalarProperty Name="Account_role_id" ColumnName="Account_role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Account_role">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Account_role">
+        <MappingFragment StoreEntitySet="Account_role">
+          <ScalarProperty Name="Account_role_id" ColumnName="Account_role_id" />
+          <ScalarProperty Name="Account_role_name" ColumnName="Account_role_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DonHangs">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.DonHang">
+        <MappingFragment StoreEntitySet="DonHang">
+          <ScalarProperty Name="DonHang_id" ColumnName="DonHang_id" />
+          <ScalarProperty Name="Account_ID" ColumnName="Account_ID" />
+          <ScalarProperty Name="NgayGio" ColumnName="NgayGio" />
+          <ScalarProperty Name="TinhTrangDonHang_id" ColumnName="TinhTrangDonHang_id" />
+          <ScalarProperty Name="PhuongThucThanhToan" ColumnName="PhuongThucThanhToan" />
+          <ScalarProperty Name="TinhTrangThanhToan" ColumnName="TinhTrangThanhToan" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="DonHangInfor_id" ColumnName="DonHangInfor_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DonHangInfors">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.DonHangInfor">
+        <MappingFragment StoreEntitySet="DonHangInfor">
+          <ScalarProperty Name="DonHangInfor_id" ColumnName="DonHangInfor_id" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Sdt" ColumnName="Sdt" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="TinhThanh" ColumnName="TinhThanh" />
+          <ScalarProperty Name="QuanHuyen" ColumnName="QuanHuyen" />
+          <ScalarProperty Name="PhuongXa" ColumnName="PhuongXa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Feedbacks">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Feedback">
+        <MappingFragment StoreEntitySet="Feedback">
+          <ScalarProperty Name="Feedback_id" ColumnName="Feedback_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Infors">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Infor">
+        <MappingFragment StoreEntitySet="Infor">
+          <ScalarProperty Name="Infor_id" ColumnName="Infor_id" />
+          <ScalarProperty Name="Account_id" ColumnName="Account_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="TinhThanh" ColumnName="TinhThanh" />
+          <ScalarProperty Name="QuanHuyen" ColumnName="QuanHuyen" />
+          <ScalarProperty Name="PhuongXa" ColumnName="PhuongXa" />
+          <ScalarProperty Name="BuyHistory" ColumnName="BuyHistory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductListCheckouts">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.ProductListCheckout">
+        <MappingFragment StoreEntitySet="ProductListCheckout">
+          <ScalarProperty Name="StringPrice" ColumnName="StringPrice" />
+          <ScalarProperty Name="ProductListCheckout_id" ColumnName="ProductListCheckout_id" />
+          <ScalarProperty Name="DonHang_id" ColumnName="DonHang_id" />
+          <ScalarProperty Name="SanPham_id" ColumnName="SanPham_id" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="SanPham_Id" ColumnName="SanPham_Id" />
+          <ScalarProperty Name="SanPham_Name" ColumnName="SanPham_Name" />
+          <ScalarProperty Name="SanPham_description" ColumnName="SanPham_description" />
+          <ScalarProperty Name="SanPham_Price" ColumnName="SanPham_Price" />
+          <ScalarProperty Name="SanPham_priceSale" ColumnName="SanPham_priceSale" />
+          <ScalarProperty Name="Sale_key" ColumnName="Sale_key" />
+          <ScalarProperty Name="Main_img" ColumnName="Main_img" />
+          <ScalarProperty Name="Img1" ColumnName="Img1" />
+          <ScalarProperty Name="Img2" ColumnName="Img2" />
+          <ScalarProperty Name="Img3" ColumnName="Img3" />
+          <ScalarProperty Name="Img4" ColumnName="Img4" />
+          <ScalarProperty Name="Type_SanPham_id" ColumnName="Type_SanPham_id" />
+          <ScalarProperty Name="SanPhamDetail_id" ColumnName="SanPhamDetail_id" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="StringPrice" ColumnName="StringPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhamDetails">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.SanPhamDetail">
+        <MappingFragment StoreEntitySet="SanPhamDetail">
+          <ScalarProperty Name="SanPhamDetail_id" ColumnName="SanPhamDetail_id" />
+          <ScalarProperty Name="S" ColumnName="S" />
+          <ScalarProperty Name="M" ColumnName="M" />
+          <ScalarProperty Name="L" ColumnName="L" />
+          <ScalarProperty Name="XL" ColumnName="XL" />
+          <ScalarProperty Name="XXL" ColumnName="XXL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sizes">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Size">
+        <MappingFragment StoreEntitySet="Size">
+          <ScalarProperty Name="Size_id" ColumnName="Size_id" />
+          <ScalarProperty Name="Size_name" ColumnName="Size_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThanhToans">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.ThanhToan">
+        <MappingFragment StoreEntitySet="ThanhToan">
+          <ScalarProperty Name="ThanhToan_id" ColumnName="ThanhToan_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TinhTrangDonHangs">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.TinhTrangDonHang">
+        <MappingFragment StoreEntitySet="TinhTrangDonHang">
+          <ScalarProperty Name="TinhTrangDonHang_id" ColumnName="TinhTrangDonHang_id" />
+          <ScalarProperty Name="TinhTrangDonHang_name" ColumnName="TinhTrangDonHang_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type_SanPham">
+      <EntityTypeMapping TypeName="ThuongMaiDienTuModel.Type_SanPham">
+        <MappingFragment StoreEntitySet="Type_SanPham">
+          <ScalarProperty Name="Type_SanPham_id" ColumnName="Type_SanPham_id" />
+          <ScalarProperty Name="Type_name" ColumnName="Type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

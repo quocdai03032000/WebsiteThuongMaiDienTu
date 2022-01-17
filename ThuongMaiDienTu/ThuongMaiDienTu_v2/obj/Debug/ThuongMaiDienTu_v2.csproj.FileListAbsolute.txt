@@ -1,0 +1,342 @@
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csc.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csi.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csi.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\csi.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.AppContext.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Console.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\vbc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\EntityFramework.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Helpers.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Mvc.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Optimization.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\WebGrease.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\EntityFramework.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Helpers.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Mvc.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Optimization.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csprojAssemblyReference.cache
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CoreCompileInputs.cache
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CopyComplete
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csc.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csi.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csi.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\csi.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.AppContext.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Console.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\vbc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\EntityFramework.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Helpers.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Mvc.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Optimization.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\WebGrease.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\EntityFramework.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Helpers.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Mvc.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Optimization.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CoreCompileInputs.cache
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CopyComplete
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PayPal.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PayPal.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csprojAssemblyReference.cache
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PagedList.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PagedList.Mvc.dll
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PagedList.xml
+C:\Users\Tran Quoc Dai\Desktop\Thử nghiệm\ThuongMaiDienTu_v2 - Copy\ThuongMaiDienTu_v2\bin\PagedList.Mvc.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll.config
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.pdb
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.exe
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.exe.config
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.rsp
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.exe
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.exe.config
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.rsp
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.AppContext.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Console.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Compression.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Claims.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.ValueTuple.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe.config
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.rsp
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Commom.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.Mvc.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PayPal.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Helpers.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Mvc.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Optimization.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Razor.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\WebGrease.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Commom.pdb
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.Mvc.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PayPal.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Helpers.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Mvc.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Optimization.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Razor.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.pdb
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.AssemblyReference.cache
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CoreCompileInputs.cache
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CopyComplete
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.dll
+C:\Users\laanh\OneDrive\Máy tính\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll.config
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\ThuongMaiDienTu_v2.pdb
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.exe
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.exe
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\csi.rsp
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.AppContext.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Console.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\vbc.rsp
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Commom.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.Mvc.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PayPal.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Helpers.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Mvc.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Optimization.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\WebGrease.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Commom.pdb
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\EntityFramework.SqlServer.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PagedList.Mvc.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\PayPal.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Helpers.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Mvc.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Optimization.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Newtonsoft.Json.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Antlr3.Runtime.pdb
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csprojAssemblyReference.cache
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CoreCompileInputs.cache
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.csproj.CopyComplete
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.dll
+C:\Users\Tran Quoc Dai\Desktop\Đồ án\Thương Mại Điện Tử\ThuongMaiDienTu\Đại\ThuongMaiDienTu_v7\ThuongMaiDienTu_v2\obj\Debug\ThuongMaiDienTu_v2.pdb

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{930EFACB-23EF-41A2-8DD2-259902B3881A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThuongMaiDienTu_v2</RootNamespace>
+    <AssemblyName>ThuongMaiDienTu_v2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Models\Checkout.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account_role.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BillDemo.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\ChangeCurrency.cs" />
+    <Compile Include="Models\DonHang.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DonHangInfor.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Feedback.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Infor.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PaypalConfiguration.cs" />
+    <Compile Include="Models\PaypalLogger.cs" />
+    <Compile Include="Models\ProductListCheckout.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SanPham.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SanPhamDetail.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Size.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ThanhToan.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ThuongMaiDienTu.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuongMaiDienTu.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ThuongMaiDienTu.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ThuongMaiDienTu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThuongMaiDienTu.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TinhTrangDonHang.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Type_SanPham.cs">
+      <DependentUpon>ThuongMaiDienTu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewModel.cs" />
+    <Compile Include="Momo\MoMoSecurity.cs" />
+    <Compile Include="Momo\PaymentRequest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Resources\assets\css\style.css" />
+    <Content Include="Areas\Admin\Resources\assets\init-scripts\data-table\datatables-init.js" />
+    <Content Include="Areas\Admin\Resources\assets\js\dashboard.js" />
+    <Content Include="Areas\Admin\Resources\assets\js\main.js" />
+    <Content Include="Areas\Admin\Resources\assets\js\modal.js" />
+    <Content Include="Areas\Admin\Resources\assets\js\TableScript.js" />
+    <Content Include="Areas\Admin\Resources\assets\js\widgets.js" />
+    <Content Include="Areas\Admin\Resources\images\admin.png" />
+    <Content Include="Areas\Admin\Resources\images\noimage.jpg" />
+    <Content Include="Areas\Admin\Resources\images\placeholder.png" />
+    <Content Include="Areas\Admin\Resources\images\user_login.png" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Models\ThuongMaiDienTu.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ThuongMaiDienTu.edmx</DependentUpon>
+      <LastGenOutput>ThuongMaiDienTu.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ThuongMaiDienTu.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ThuongMaiDienTu.edmx</DependentUpon>
+      <LastGenOutput>ThuongMaiDienTu.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\css\reset.css" />
+    <Content Include="Resources\css\style.css" />
+    <Content Include="Resources\img\13.jpg" />
+    <Content Include="Resources\img\accessocia.jpg" />
+    <Content Include="Resources\img\acs.jpg" />
+    <Content Include="Resources\img\bag.png" />
+    <Content Include="Resources\img\category_ACCESSORES.jpg" />
+    <Content Include="Resources\img\category_bag.jpg" />
+    <Content Include="Resources\img\category_jacket.jpg" />
+    <Content Include="Resources\img\category_tee.jpg" />
+    <Content Include="Resources\img\category_tee1.jpg" />
+    <Content Include="Resources\img\cod.jpg" />
+    <Content Include="Resources\img\cod.png" />
+    <Content Include="Resources\img\h1_hero1.png" />
+    <Content Include="Resources\img\hannah-morgan-ycVFts5Ma4s-unsplash.jpg" />
+    <Content Include="Resources\img\icon1.png" />
+    <Content Include="Resources\img\img_title_sản phẩm.jpg" />
+    <Content Include="Resources\img\ins\insta-1.jpg.png" />
+    <Content Include="Resources\img\ins\insta-2.jpg.png" />
+    <Content Include="Resources\img\ins\insta-3.jpg.png" />
+    <Content Include="Resources\img\ins\insta-4.jpg.png" />
+    <Content Include="Resources\img\ins\insta-5.jpg.png" />
+    <Content Include="Resources\img\ins\insta-6.jpg.png" />
+    <Content Include="Resources\img\kinh.png" />
+    <Content Include="Resources\img\logo.png" />
+    <Content Include="Resources\img\main.png" />
+    <Content Include="Resources\img\maximilian.png" />
+    <Content Include="Resources\img\maximilian_white.png" />
+    <Content Include="Resources\img\men.jpg" />
+    <Content Include="Resources\img\menn.png" />
+    <Content Include="Resources\img\momo1.png" />
+    <Content Include="Resources\img\momo2.png" />
+    <Content Include="Resources\img\momo_logo.png" />
+    <Content Include="Resources\img\newcls.jpg" />
+    <Content Include="Resources\img\paypal.png" />
+    <Content Include="Resources\img\paypal_logo.png" />
+    <Content Include="Resources\img\pexels-daniel-adesina-833052.jpg" />
+    <Content Include="Resources\img\pexels-trinity-kubassek-445109.jpg" />
+    <Content Include="Resources\img\quan.png" />
+    <Content Include="Resources\img\quandai.png" />
+    <Content Include="Resources\img\slide1.png" />
+    <Content Include="Resources\img\slide2.png" />
+    <Content Include="Resources\img\slide3.png" />
+    <Content Include="Resources\img\tee-basic-white.jpg" />
+    <Content Include="Resources\img\tee-basic.jpg" />
+    <Content Include="Resources\img\tee.jpg" />
+    <Content Include="Resources\img\tee_blue.png" />
+    <Content Include="Resources\img\tee_gray.jpg" />
+    <Content Include="Resources\img\tee_green.png" />
+    <Content Include="Resources\img\tee_pupur.png" />
+    <Content Include="Resources\img\title.jpg" />
+    <Content Include="Resources\img\user-removebg-preview.png" />
+    <Content Include="Resources\img\wm.png" />
+    <Content Include="Resources\img\woman.png" />
+    <Content Include="Resources\js\changeSlideImg.js" />
+    <Content Include="Resources\js\countdown.js" />
+    <Content Include="Resources\js\jquery.waypoints.min.js" />
+    <Content Include="Resources\js\ProductDetail.js" />
+    <Content Include="Resources\js\script.js" />
+    <Content Include="Resources\js\validator.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\ProductManagement.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\UserManagement.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\ProductDetail.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Order.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\OderDetail.cshtml" />
+    <EntityDeploy Include="Models\ThuongMaiDienTu.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ThuongMaiDienTu.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ThuongMaiDienTu.edmx.diagram">
+      <DependentUpon>ThuongMaiDienTu.edmx</DependentUpon>
+    </Content>
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\IMG2_scripts.js" />
+    <Content Include="Scripts\IMG3_scripts.js" />
+    <Content Include="Scripts\IMG4_scripts.js" />
+    <Content Include="Scripts\IMG5_scripts.js" />
+    <Content Include="Scripts\IMG_scripts.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_UserLayout.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\User\AllProduct.cshtml" />
+    <Content Include="Views\User\ProductDetail.cshtml" />
+    <Content Include="Views\User\Checkout.cshtml" />
+    <Content Include="Views\User\Cart.cshtml" />
+    <Content Include="Views\User\Contact.cshtml" />
+    <Content Include="Views\User\CartNull.cshtml" />
+    <Content Include="Views\User\ConfirmPaymentClient.cshtml" />
+    <Content Include="Views\Email\newoder.html" />
+    <Content Include="Views\User\AccessoryProduct.cshtml" />
+    <Content Include="Views\User\Failure.cshtml" />
+    <Content Include="Views\User\JacketProduct.cshtml" />
+    <Content Include="Views\User\PantProduct.cshtml" />
+    <Content Include="Views\User\Success.cshtml" />
+    <Content Include="Views\User\TeeProduct.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Resources\vendors\" />
+    <Folder Include="Content\Image_SanPham\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commom\Commom.csproj">
+      <Project>{2f9e5956-cf0c-4fd6-a8d0-e2b8b5bff45b}</Project>
+      <Name>Commom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50190</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50190/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

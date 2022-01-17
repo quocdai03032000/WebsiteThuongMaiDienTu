@@ -1,0 +1,181 @@
+﻿@model ThuongMaiDienTu_v2.Models.ViewModel
+    @{
+        ViewBag.Title = "Home";
+        Layout = "~/Views/Shared/_UserLayout.cshtml";
+
+    }
+
+    <!-- slide image -->
+    <div class="header_wrap">
+        <div class="header_slideShow" id="slideShow">
+        </div>
+        <div class="header_img_title">
+            <h3>Clothes Collection 2022</h3>
+            <h1>NEW ARRIVALS</h1>
+            <a href="">SHOP NOW</a>
+        </div>
+    </div>
+
+    <!-- menu product -->
+
+    <div class="wrap">
+        <div class="main_product_list">
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <div class="main_product_item">
+                        <img src="~/Resources/img/newcls.jpg" alt="">
+                        <div class="info">
+                            <div>New collection</div>
+                            <a class="btnShopNow" href="">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="main_product_item">
+                        <img src="~/Resources/img/men.jpg" alt="">
+                        <div class="info">
+                            <div>Men's Fashion</div>
+                            <a class="btnShopNow" href="">Shop Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="main_product_item">
+                        <img src="~/Resources/img/wm.png" alt="">
+                        <div class="info">
+                            <div>Women's Fashion</div>
+                            <a class="btnShopNow" href="">Shop Now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="main_product_item">
+                        <img src="~/Resources/img/acs.jpg" alt="">
+                        <div class="info">
+                            <div>Accessores</div>
+                            <a class="btnShopNow" href="">Shop Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW PRODUCT -->
+        <div class="new_product">
+            <div class="new_product_title">
+                <h2>New Product</h2>
+                <div class="row">
+                    @foreach (var item in Model.NewProduct)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <a class="new_product_item" href="@Url.Action("ProductDetail","User", new { id =item.SanPham_Id})">
+                                <div class="new_product_item_imgdiv">
+                                    <img src="@Url.Content(item.Main_img)" alt="" class="new_product_img">
+                                </div>
+                                <h3 class="new_product_item_name">@Html.Label(item.SanPham_Name)</h3>
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                                <h3 class="new_product_item_price">@item.StringPrice</h3>
+                            </a>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+
+        <!-- You May Like -->
+        <div class="new_product">
+            <div class="new_product_title">
+                <h2>You May Like</h2>
+                <div class="row">
+                    @foreach (var item in Model.LikeProduct)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <a class="new_product_item" href="@Url.Action("ProductDetail","User", new { id =item.SanPham_Id})">
+                                <div class="new_product_item_imgdiv">
+                                    <img src="@Url.Content(item.Main_img)" alt="" class="new_product_img">
+                                </div>
+                                <h3 class="new_product_item_name">@Html.DisplayFor(a => item.SanPham_Name)</h3>
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                </ul>
+                                <h3 class="new_product_item_price"  >@item.StringPrice</h3>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Đồng hồ đếm ngược -->
+    <div class="countdown">
+        <div class="countdown_title">
+            <h4>discount</h4>
+            <h2>Summer Sale 2022</h2>
+            <h4>Sale up to <span>70%</span></h4>
+            <div id="countdown" class="countdown_run">
+                <ul>
+                    <li><span id="days"></span>Day</li>
+                    <li><span id="hours"></span>Hour</li>
+                    <li><span id="minutes"></span>Min</li>
+                    <li><span id="seconds"></span>Sec</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="services">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="services_item">
+                        <i class="fa fa-car"></i>
+                        <h6>Free Shipping</h6>
+                        <p>For all oder over 500.000vnđ</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="services_item">
+                        <i class="far fa-money-bill-alt"></i>
+                        <h6>Money Back Guarantee</h6>
+                        <p>If good have Problems</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="services_item">
+                        <i class="far fa-life-ring"></i>
+                        <h6>Online Support 24/7</h6>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="services_item">
+                        <i class="fa fa-headphones"></i>
+                        <h6>Payment Secure</h6>
+                        <p>100% secure payment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    @Scripts.Render("~/bundles/CountdownScript");
+    @Scripts.Render("~/bundles/SlideShow");
+
